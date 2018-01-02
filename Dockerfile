@@ -11,3 +11,5 @@ RUN getOrganizr.sh
 RUN chmod -R 777 /www
 RUN mkdir /config
 RUN chmod -R 777 /config
+
+VOLUME /www /config
